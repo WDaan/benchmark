@@ -3,7 +3,6 @@ const fastify = require('fastify')({
     logger: true
 })
 
-
 function countOccurence() {
     const rstream = fs.createReadStream('../data.txt')
 
