@@ -31,12 +31,9 @@ fn get_occurrences() -> HashMap<i32, i32> {
 fn format(occs: &HashMap<i32, i32>) -> Vec<Occurrence> {
     let mut result: Vec<Occurrence> = Vec::new();
     for (num, count) in occs.iter() {
-        result.push(Occurrence {
-            count: *count,
-            num: *num,
-        });
+        result.push(Occurrence::new(*num, *count));
     }
-    return result.sort();
+    return result;
 }
 
 #[get("/")]

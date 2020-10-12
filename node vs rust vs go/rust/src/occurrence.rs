@@ -7,6 +7,15 @@ pub struct Occurrence {
     count: i32,
 }
 
+impl Occurrence {
+    pub fn new(num: i32, count: i32) -> Occurrence{
+        Occurrence {
+            num,
+            count
+        }
+    }
+}
+
 impl Serialize for Occurrence {
     fn serialize<S>(&self, serializer: S) -> Result<S::Ok, S::Error>
     where
