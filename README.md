@@ -18,7 +18,7 @@ tests how fast webserver can read file (10k number), count & respond json
 - package management: 0
 - ease of programming: 2
 
-![c# benchmark image](/results/c#.png?raw=true "C# benchmark")
+![c# benchmark image](/results/csharp.png?raw=true "C# benchmark")
 
 # Nodejs
 
