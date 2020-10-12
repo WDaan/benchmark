@@ -41,3 +41,7 @@ tests how fast webserver can read file (10k number), count & respond json
 # Go
 
 ![Gobenchmark image](/results/Go.png?raw=true "Go benchmark")
+
+# Python
+
+![Gobenchmark image](/results/Go.png?raw=true "Go benchmark")
