@@ -52,7 +52,11 @@ an easy yet difficult enough way to get a grasp of a language & it's features
 
 # Go
 
-![Gobenchmark image](/results/Go.png?raw=true "Go benchmark")
+- package management: **
+- ease of programming: **
+- speed: ***
+
+![Gobenchmark image](/results/go.png?raw=true "Go benchmark")
 
 # Python
 
