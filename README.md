@@ -1,7 +1,7 @@
 
 # Benchmark
 
-Tastk:
+Task:
 - Read a file with 10k numbers
 - split into array of strings
 - count number of occurences
