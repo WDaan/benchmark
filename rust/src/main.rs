@@ -12,11 +12,13 @@ fn get_occurrences() -> HashMap<i32, i32> {
 
     let contents = fs::read_to_string(path).expect("Something went wrong reading the file");
 
-    let v: Vec<i32> = contents
+    let mut v: Vec<i32> = contents
         .split("\n")
         .filter(|s| !s.is_empty())
         .map(|x| x.trim().parse().unwrap())
         .collect();
+
+    v.sort();
 
     let mut occurrences: HashMap<i32, i32> = HashMap::new();
 
@@ -45,6 +47,8 @@ async fn hello() -> impl Responder {
 
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
+    println!("Server listening on port 8000");
+
     HttpServer::new(|| App::new().service(hello))
         .bind("127.0.0.1:8000")?
         .run()

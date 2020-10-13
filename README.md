@@ -1,9 +1,14 @@
 
 # Benchmark
 
-tests how fast webserver can read file (10k number), count & respond json
+Tastk:
+- Read a file with 10k numbers
+- split into array of strings
+- count number of occurences
+- host webserver & respond as json [{ num: x, count: y}, ...]
 
-  
+an easy yet difficult enough way to get a grasp of a language & it's features
+
 
 ## command for testing
 
@@ -16,21 +21,21 @@ tests how fast webserver can read file (10k number), count & respond json
 # C#
 
 - package management: 0
-- ease of programming: 2
+- ease of programming: **
 
 ![c# benchmark image](/results/csharp.png?raw=true "C# benchmark")
 
 # Nodejs
 
-- package management: 2
-- ease of programming: 3
+- package management: **
+- ease of programming: ***
 
 ![Node benchmark image](/results/node.png?raw=true "Nodejs benchmark")
 
 # Rust
 
-- package management: 3
-- ease of programming: 1
+- package management: ***
+- ease of programming: *
 
 ![rust benchmark image](/results/rust.png?raw=true "Rust benchmark")
 
