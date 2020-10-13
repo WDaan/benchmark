@@ -22,6 +22,7 @@ an easy yet difficult enough way to get a grasp of a language & it's features
 
 - package management: 0
 - ease of programming: **
+- speed: **
 
 ![c# benchmark image](/results/csharp.png?raw=true "C# benchmark")
 
@@ -29,6 +30,7 @@ an easy yet difficult enough way to get a grasp of a language & it's features
 
 - package management: **
 - ease of programming: ***
+- speed: *
 
 ![Node benchmark image](/results/node.png?raw=true "Nodejs benchmark")
 
@@ -36,10 +38,15 @@ an easy yet difficult enough way to get a grasp of a language & it's features
 
 - package management: ***
 - ease of programming: *
+- speed: *****
 
 ![rust benchmark image](/results/rust.png?raw=true "Rust benchmark")
 
 # Php
+
+- package management: **
+- ease of programming: ***
+- speed: *
 
 ![phpbenchmark image](/results/php.png?raw=true "php benchmark")
 
